@@ -1,0 +1,237 @@
+Performance test
+1. Load test
+2. Endurance test
+3. Spike test
+4. stress test
+5. volume
+
+
+RAM: At least 16Gb RAM, 32GB recommended. Avoid using more than 50% RAM.
+
+
+https://jmeter.apache.org/
+
+How To install
+===============
+-download -> unzip -> bin -> jmeter.bat
+*Do not use GUI mode for performance test, debug and setup
+Start JMeter
+
+clientside performance testing
+server side performance testing
+
+Client-------------JMeter------Server
+
+TestSite: 
+=========================================
+https://reqres.in/
+https://lifecharger.org/books-i-am-reading/
+
+
+Jmeter: website 
+
+Performance test application
+build using java
+Free and open source
+Recording 
+CLI
+Reports
+
+How to install Jmeter
+-windows mac linux
+-Check java version -min java 8
+-download jmeter
+-unzip and keep jmeter folder in any location 
+*dont use GUI mode for performance test only debug and setup 
+-start jmeter 
+
+
+test server=============production server
+4			16
+32			4*32=
+
+
+============Business user gave this info===============================
+
+No. of user: 	1000000 USER
+Time: 		10*60*60=36000 SECOND
+User PER SECOND: user/time=28 approx
+
+PER 10 SECOND: 28*10=280 user/thread
+
+=============Test Site========
+https://reqres.in/
+
+https://reqres.in/api/users/2
+
+====================
+Creating JMeter test 
+=====================
+-Start JMeter
+-Test plan creation
+-Thread group
+-Sampler (http)
+-Listener
+-Run
+
+Listener
+=============
+-view results in tree
+-Aggregate report
+-Graph results
+-Simple data writer
+
+
+Assertions
+===========
+Response assertion
+Duration assertion
+size assertion
+html assertion
+XML JSON assertion
+XPATH Assertion
+
+
+
+Learn Blazemeter
+=================
+GUI consumes memory, slower
+Integrating with any external process CI/CD
+
+How to run jmeter test from command line
+How to log the results
+help options
+
+
+Why command line?
+- Resource utilization better
+- Faster 
+- HTML report generate
+- Precise error report 
+
+=======================keep your jmx file in bin===========create a folder in bin called "report"
+
+
+
+jmeter -n -t b20_t500.jmx -l report\b20_t500.jtl
+
+jmeter -g report\b20_t500.jtl -o report\b20_t500.html
+
+
+
+
+
+How to extract data for reporting in jmeter
+============================================
+Dear, 
+
+I’ve completed performance test on frequently used API for test App. 
+Test executed for the below mentioned scenario in server 000.000.000.00. 
+
+200 Concurrent Request with 10 Loop Count; Avg TPS for Total Samples is ~ 234 And Total Concurrent API requested: 1400.
+300 Concurrent Request with 10 Loop Count; Avg TPS for Total Samples is ~ 350 And Total Concurrent API requested: 2100.
+400 Concurrent Request with 10 Loop Count; Avg TPS for Total Samples is ~ 424 And Total Concurrent API requested: 2800.
+500 Concurrent Request with 10 Loop Count; Avg TPS for Total Samples is ~ 443 And Total Concurrent API requested: 3500.
+
+While executed 500 concurrent request, found  82 request got connection timeout and error rate is 0.23%. 
+
+Summary: Server can handle almost concurrent 3200 API call with almost zero (0) error rate.
+
+Please find the details report from the attachment and  let me know if you have any further queries. 
+
+
+
+Wait for the next class, shob confusion er oboshan hobe.
+
+Till then don't try to hit others site.
+
+Test purpose e 5 or 10 thread is okay, but don't give more. And keep the ramp up within 10 sec.
+
+You can also study 
+1. Load testing
+2. Endurance testing 
+3. Spike testing 
+Just the definition
+
+
+And this is what I will give as an assignment, just keep this with you guyz
+
+
+Just think about performance testing assignment.
+
+Assignment kintu khub সহজ
+For the test site any test site eg reqres 
+
+1. Choose one API or multiple API 
+
+2. Req and check the response until you see green.
+
+3. Increase the load as long as the error rate is less than one percent. By this you did load test
+
+4. Keep this load for 10 min under threshold which you have found in step three and by this you achieved endurance test.
+
+5. All of a sudden increase the load beyond load and check how the system behaves and by this you did spike testing.
+
+You can run from non GUI mode and make a report.
+
+Choose site as you wish but make sure it is a testing site. 
+
+My question is why do you have to wait for my / our assignment to try what you have already learned?
+
+Why don't you guys test yourself and do some project on your own? 
+
+Now that i have given you all some idea i hope you will keep using what you have learned and explore more. Don't stay stuck, take help from anyone you see out there but I repeat don't stay stuck.
+
+
+
+https://jmeter-plugins.org/install/Install/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
